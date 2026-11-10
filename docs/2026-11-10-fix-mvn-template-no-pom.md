@@ -20,3 +20,7 @@ make sure you have checked out the target repository
 - 触发分支：`master`、`maven`；
 - `actions/setup-java@v4`（temurin 17，去掉 `cache: maven`）；
 - 使用现有 `Makefile`：`make`（javac 编 simpager.java）＋ `make clean`。
+
+## 补充（同日稍后）
+
+首次在 `maven` 分支触发后仍失败：`make: No rule to make target 'simpager.java'` —— maven 分支只剩 Makefile/.github，源码文件（*.java）并不在该分支上；master 分支同样内容的 run 成功。已将 maven 分支重置为与 master 一致（force push）。
