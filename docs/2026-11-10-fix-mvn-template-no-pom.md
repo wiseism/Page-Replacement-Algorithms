@@ -20,3 +20,7 @@ make sure you have checked out the target repository
 - 触发分支：`master`、`maven`；
 - `actions/setup-java@v4`（temurin 17，去掉 `cache: maven`）；
 - 使用现有 `Makefile`：`make`（javac 编 simpager.java）＋ `make clean`。
+
+| 42832034631 (8d12455) | ✅ success |
+| 42834816821 (8d12455) | ✅ success |
+| 42834828435 (6d1136b) | ✅ success |
